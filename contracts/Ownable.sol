@@ -9,7 +9,7 @@ contract Ownable {
     }
     
     modifier onlyOwner() {
-        require(isOwner(), "You are note the owner");
+        require(isOwner(), "You are not the owner");
         _;
     }
     
